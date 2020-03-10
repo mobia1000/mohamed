@@ -7,7 +7,6 @@ import { ChantierComponent } from './chantier/chantier.component';
 import { RapportComponent } from './rapport/rapport.component';
 import { DemandeComponent } from './demande/demande.component';
 import { PrinterComponent } from './printer.component';
-import { MatButtonModule } from '@angular/material/button';
 
 
 @NgModule({
@@ -15,7 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
   imports: [
     CommonModule,
     PrinterRoutingModule,
-    MatButtonModule
+    
   ]
 })
 export class PrinterModule { }

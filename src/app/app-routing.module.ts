@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  {path:'' , loadChildren:'./printer/printer.module#PrinterModule'}
+  {path:'printer' , loadChildren:'./printer/printer.module#PrinterModule'}
 ];
 
 @NgModule({

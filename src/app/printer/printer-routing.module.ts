@@ -9,7 +9,8 @@ const routes: Routes = [
     { path :'personnel' , component:PersonnelComponent},
     { path :'chantier' , component:PersonnelComponent},
     { path :'demande' , component:PersonnelComponent},
-    { path :'rapport' , component:PersonnelComponent}
+    { path :'rapport' , component:PersonnelComponent},
+    { path :'' , redirectTo:'personnel'}
   ]}
 ];
 
